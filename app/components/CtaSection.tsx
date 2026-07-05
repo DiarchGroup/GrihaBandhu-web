@@ -28,6 +28,16 @@ export default function CtaSection() {
             </div>
             <div>
               <p className="font-body text-sm font-semibold text-ink">
+                Phone
+              </p>
+              <p className="mt-2 font-body text-sm leading-relaxed text-muted">
+                <a href="tel:+919229266955" className="hover:text-ink">
+                  +91 92292 66955
+                </a>
+              </p>
+            </div>
+            <div>
+              <p className="font-body text-sm font-semibold text-ink">
                 Office hours
               </p>
               <p className="mt-2 font-body text-sm leading-relaxed text-muted">
