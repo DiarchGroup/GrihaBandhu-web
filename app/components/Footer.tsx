@@ -28,7 +28,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
             <Image
-              src="/logo.png"
+              src="/dlogo.png"
               alt="Griha Bandhu"
               width={2038}
               height={771}

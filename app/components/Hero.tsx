@@ -14,7 +14,7 @@ export default function Hero() {
       <nav className="relative z-30 mx-auto flex w-full max-w-[1600px] items-center justify-between gap-6 px-6 py-6 lg:px-10">
         <a href="#" className="flex items-center" aria-label="Griha Bandhu home">
           <Image
-            src="/logo.png"
+            src="/dlogo.png"
             alt="Griha Bandhu"
             width={2038}
             height={771}
