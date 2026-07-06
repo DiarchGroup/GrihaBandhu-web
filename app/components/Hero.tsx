@@ -12,12 +12,16 @@ export default function Hero() {
     <section className="relative flex h-screen min-h-[640px] flex-col overflow-hidden bg-paper">
       {/* Top navigation */}
       <nav className="relative z-30 mx-auto flex w-full max-w-[1600px] items-center justify-between gap-6 px-6 py-6 lg:px-10">
-        <span className="flex items-center gap-2 font-display text-xl font-extrabold uppercase tracking-wide text-ink">
-          <span className="grid h-6 w-6 place-items-center border-2 border-orange-500 text-orange-500">
-            <span className="block h-2.5 w-2.5 rotate-45 border-r-2 border-t-2 border-orange-500" />
-          </span>
-          Griha<span className="text-orange-500">Bandhu</span>
-        </span>
+        <a href="#" className="flex items-center" aria-label="Griha Bandhu home">
+          <Image
+            src="/logo.png"
+            alt="Griha Bandhu"
+            width={2038}
+            height={771}
+            priority
+            className="h-9 w-auto lg:h-10"
+          />
+        </a>
 
         <ul className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-8 lg:flex">
           {NAV_LINKS.map((link) => (
@@ -46,7 +50,7 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-y-0 right-0 z-10 flex items-end justify-end">
         <div className="relative h-[110vh] min-h-[640px] w-auto translate-x-[10%] lg:translate-x-[4%]">
           <Image
-            src="/hero-light.png"
+            src="/correctlogo.png"
             alt="Griha Bandhu site engineer wearing an orange safety helmet"
             width={1024}
             height={1536}

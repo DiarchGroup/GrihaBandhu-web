@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const COLUMNS = [
   {
     heading: "Platform",
@@ -25,12 +27,13 @@ export default function Footer() {
       <div className="mx-auto max-w-[1600px] px-6 py-16 lg:px-10">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
-            <span className="flex items-center gap-2 font-display text-xl font-extrabold uppercase tracking-wide text-ink">
-              <span className="grid h-6 w-6 place-items-center border-2 border-orange-500 text-orange-500">
-                <span className="block h-2.5 w-2.5 rotate-45 border-r-2 border-t-2 border-orange-500" />
-              </span>
-              Griha<span className="text-orange-500">Bandhu</span>
-            </span>
+            <Image
+              src="/logo.png"
+              alt="Griha Bandhu"
+              width={2038}
+              height={771}
+              className="h-10 w-auto"
+            />
             <p className="mt-5 max-w-xs font-body text-sm leading-relaxed text-muted">
               The AI-powered construction operating system — planning,
               monitoring, finance and collaboration in one platform.
