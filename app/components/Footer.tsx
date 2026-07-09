@@ -28,10 +28,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
             <Image
-              src="/dlogo.png"
+              src="/grihabandhu-logo.png"
               alt="Griha Bandhu"
-              width={2038}
-              height={771}
+              width={628}
+              height={224}
               className="h-10 w-auto"
             />
             <p className="mt-5 max-w-xs font-body text-sm leading-relaxed text-muted">

@@ -31,8 +31,8 @@ export default function CtaSection() {
                 Phone
               </p>
               <p className="mt-2 font-body text-sm leading-relaxed text-muted">
-                <a href="tel:+919229266955" className="hover:text-ink">
-                  +91 92292 66955
+                <a href="tel:+919031845736" className="hover:text-ink">
+                  +91 90318 45736
                 </a>
               </p>
             </div>
