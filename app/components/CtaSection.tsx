@@ -38,6 +38,16 @@ export default function CtaSection() {
             </div>
             <div>
               <p className="font-body text-sm font-semibold text-ink">
+                Email
+              </p>
+              <p className="mt-2 font-body text-sm leading-relaxed text-muted">
+                <a href="mailto:info@grihabandhu.com" className="hover:text-ink">
+                  info@grihabandhu.com
+                </a>
+              </p>
+            </div>
+            <div>
+              <p className="font-body text-sm font-semibold text-ink">
                 Office hours
               </p>
               <p className="mt-2 font-body text-sm leading-relaxed text-muted">
